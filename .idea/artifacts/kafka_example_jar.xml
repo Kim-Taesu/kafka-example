@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="kafka-example:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/kafka_example_jar</output-path>
+    <root id="root">
+      <element id="archive" name="kafka-example.jar">
+        <element id="module-output" name="kafka-example" />
+      </element>
+      <element id="library" level="project" name="Maven: org.apache.kafka:kafka-clients:2.4.0" />
+      <element id="library" level="project" name="Maven: org.xerial.snappy:snappy-java:1.1.7.3" />
+      <element id="library" level="project" name="Maven: org.lz4:lz4-java:1.6.0" />
+      <element id="library" level="project" name="Maven: com.github.luben:zstd-jni:1.4.3-1" />
+      <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.28" />
+    </root>
+  </artifact>
+</component>
